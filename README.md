@@ -47,8 +47,15 @@ This project enables personal-brand managers, creators, and developers to:
 
 ## 🏗 Architecture
 
-![Architecture Flowchart](images/Sentiment Analyzer.drawio.png)  
-*Figure: End-to-end pipeline—from data ingestion to dashboard* :contentReference[oaicite:2]{index=2}  
+![Architecture Flowchart](images/Sentiment-Analyzer.drawio.png)  
+*Figure: End-to-end pipeline—from data ingestion to dashboard*}  
+
+---
+
+## 🏗 Screenshots & Visuals
+
+![Architecture Flowchart](images/screencapture.png)  
+*Figure: Streamlit Dashboard*}  
 
 ---
 
@@ -71,3 +78,9 @@ This project enables personal-brand managers, creators, and developers to:
    ```bash
    git clone https://github.com/<your-username>/social-media-sentiment.git
    cd social-media-sentiment
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+
+
+
